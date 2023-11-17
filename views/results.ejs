@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Search Results</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+  <h1>Search Results</h1>
+  <% if (cocktails && cocktails.length > 0) { %>
+    <ul>
+      <% cocktails.forEach(cocktail => { %>
+        <li><%= cocktail.strDrink %></li>
+      <% }); %>
+    </ul>
+  <% } else { %>
+    <p>No results found</p>
+  <% } %>
+</body>
+
+</html>

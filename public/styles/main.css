@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 217, 0);
+    margin: 20px;
+    padding: 5px;
+    background-image: url(../images/timur-romanov-2DV8y3LU7Ac-unsplash.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: rgb(13, 173, 93);
+  }
+  button {
+    border-radius: 6px;
+    background-color: rgba(13, 173, 93);
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1, h3, p {
+    line-height: 3rem;
+  }
+
+  .container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  a, li { 
+    color: white;
+  }
+  
+  #cocktailName {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #ingredients {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  #instructions {
+    font-style: italic;
+    color: #e77f1d;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
